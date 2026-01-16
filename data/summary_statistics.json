@@ -1,0 +1,64 @@
+{
+  "dataset_info": {
+    "total_samples": 7473,
+    "selected_samples": 200,
+    "selection_ratio": "2.68%"
+  },
+  "full_dataset_stats": {
+    "concepts": {
+      "time": 2552,
+      "arithmetic": 1622,
+      "percentage": 1060,
+      "money": 1057,
+      "fraction": 597,
+      "ratio": 252,
+      "geometry": 229,
+      "algebra": 100,
+      "probability": 4
+    },
+    "schemas": {
+      "repeated_groups": 3909,
+      "sequential": 1054,
+      "multi_step": 973,
+      "aggregation": 875,
+      "comparison": 384,
+      "rate": 278
+    },
+    "avg_steps": 3.5760738659173024
+  },
+  "selected_200_stats": {
+    "complexity_distribution": {
+      "simple (2-3 steps)": 40,
+      "medium (4-5 steps)": 60,
+      "advanced (6-7 steps)": 50,
+      "complex (8+ steps)": 50
+    },
+    "concept_coverage": {
+      "time": 30,
+      "money": 28,
+      "fraction": 25,
+      "percentage": 25,
+      "arithmetic": 24,
+      "algebra": 23,
+      "ratio": 21,
+      "geometry": 20,
+      "probability": 4
+    },
+    "schema_coverage": {
+      "repeated_groups": 110,
+      "sequential": 26,
+      "aggregation": 25,
+      "multi_step": 17,
+      "comparison": 12,
+      "rate": 10
+    },
+    "avg_steps": 5.44
+  },
+  "prompt_techniques": [
+    "step_by_step",
+    "conceptual",
+    "pattern",
+    "error_aware",
+    "metacognitive"
+  ]
+}
