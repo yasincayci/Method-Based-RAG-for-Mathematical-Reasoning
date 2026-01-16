@@ -1,0 +1,36 @@
+{
+  "model": "gemma-3-1b-it",
+  "db_name": "step_by_step",
+  "method_strategy": "truncated_200",
+  "total_samples": 1319,
+  "overall": {
+    "correct": 591,
+    "accuracy": "44.81%"
+  },
+  "method_usage": {
+    "questions_with_methods": 952,
+    "questions_without_methods": 367,
+    "usage_rate": "72.2%"
+  },
+  "performance_breakdown": {
+    "with_methods": {
+      "correct": 403,
+      "total": 952,
+      "accuracy": "42.33%"
+    },
+    "without_methods": {
+      "correct": 188,
+      "total": 367,
+      "accuracy": "51.23%"
+    }
+  },
+  "method_impact": {
+    "accuracy_difference": "-8.89%",
+    "is_beneficial": false
+  },
+  "config": {
+    "top_k": 3,
+    "similarity_threshold": 0.4,
+    "max_method_length": 200
+  }
+}

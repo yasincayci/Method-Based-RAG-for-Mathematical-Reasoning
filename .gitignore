@@ -51,7 +51,6 @@ env/
 *.pkl
 *.pt
 *.bin
-results/
 test_precomputed_embeddings/
 method_databases/
 

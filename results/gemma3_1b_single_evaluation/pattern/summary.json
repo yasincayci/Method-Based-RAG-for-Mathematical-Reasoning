@@ -1,0 +1,36 @@
+{
+  "model": "gemma-3-1b-it",
+  "db_name": "pattern",
+  "method_strategy": "truncated_200",
+  "total_samples": 1319,
+  "overall": {
+    "correct": 614,
+    "accuracy": "46.55%"
+  },
+  "method_usage": {
+    "questions_with_methods": 971,
+    "questions_without_methods": 348,
+    "usage_rate": "73.6%"
+  },
+  "performance_breakdown": {
+    "with_methods": {
+      "correct": 453,
+      "total": 971,
+      "accuracy": "46.65%"
+    },
+    "without_methods": {
+      "correct": 161,
+      "total": 348,
+      "accuracy": "46.26%"
+    }
+  },
+  "method_impact": {
+    "accuracy_difference": "+0.39%",
+    "is_beneficial": true
+  },
+  "config": {
+    "top_k": 3,
+    "similarity_threshold": 0.4,
+    "max_method_length": 200
+  }
+}

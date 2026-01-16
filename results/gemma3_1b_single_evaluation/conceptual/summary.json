@@ -1,0 +1,36 @@
+{
+  "model": "gemma-3-1b-it",
+  "db_name": "conceptual",
+  "method_strategy": "truncated_200",
+  "total_samples": 1319,
+  "overall": {
+    "correct": 638,
+    "accuracy": "48.37%"
+  },
+  "method_usage": {
+    "questions_with_methods": 1079,
+    "questions_without_methods": 240,
+    "usage_rate": "81.8%"
+  },
+  "performance_breakdown": {
+    "with_methods": {
+      "correct": 515,
+      "total": 1079,
+      "accuracy": "47.73%"
+    },
+    "without_methods": {
+      "correct": 123,
+      "total": 240,
+      "accuracy": "51.25%"
+    }
+  },
+  "method_impact": {
+    "accuracy_difference": "-3.52%",
+    "is_beneficial": false
+  },
+  "config": {
+    "top_k": 3,
+    "similarity_threshold": 0.4,
+    "max_method_length": 200
+  }
+}

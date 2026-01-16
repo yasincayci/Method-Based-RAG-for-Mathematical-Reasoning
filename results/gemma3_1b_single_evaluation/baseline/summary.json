@@ -1,0 +1,6 @@
+{
+  "model": "gemma-3-1b-it",
+  "total_samples": 1319,
+  "correct": 636,
+  "accuracy": "48.22%"
+}

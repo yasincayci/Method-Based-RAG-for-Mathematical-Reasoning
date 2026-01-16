@@ -1,0 +1,36 @@
+{
+  "model": "gemma-3-1b-it",
+  "db_name": "metacognitive",
+  "method_strategy": "truncated_200",
+  "total_samples": 1319,
+  "overall": {
+    "correct": 589,
+    "accuracy": "44.66%"
+  },
+  "method_usage": {
+    "questions_with_methods": 1011,
+    "questions_without_methods": 308,
+    "usage_rate": "76.6%"
+  },
+  "performance_breakdown": {
+    "with_methods": {
+      "correct": 433,
+      "total": 1011,
+      "accuracy": "42.83%"
+    },
+    "without_methods": {
+      "correct": 156,
+      "total": 308,
+      "accuracy": "50.65%"
+    }
+  },
+  "method_impact": {
+    "accuracy_difference": "-7.82%",
+    "is_beneficial": false
+  },
+  "config": {
+    "top_k": 3,
+    "similarity_threshold": 0.4,
+    "max_method_length": 200
+  }
+}
